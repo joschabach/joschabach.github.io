@@ -1,16 +1,17 @@
 # main links links
 main:
   - title: "Publications"
-    url: publications.html
-
-  - title: "Videos"
-    url: videos/
-
-  - title: "Essays"
-    url: year-archive/
-
-  - title: "Ideas"
-    url: posts/
+    url: /publications.html
 
   - title: "Courses"
-    url: courses.html
+    url: /courses.html
+
+  - title: "Videos"
+    url: /videos/
+
+  - title: "Essays"
+    url: /year-archive/
+
+  - title: "Ideas"
+    url: /posts/
+
