@@ -1,7 +1,6 @@
 ---
 title: "The Lambda Calculus for Absolute Dummies (like myself)"
-excerpt: "Well, well, well."
-layout: post
+
 ---
 
 
