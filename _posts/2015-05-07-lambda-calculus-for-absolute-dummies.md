@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: The Lambda Calculus for Absolute Dummies (like myself)
 published: true
 ---
