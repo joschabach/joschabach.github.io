@@ -134,7 +134,7 @@ incremental: false
 
 sass:
   sass_dir: assets/_scss
-#  style: compressed
+  style: compressed
 
 
 # Markdown Processing
