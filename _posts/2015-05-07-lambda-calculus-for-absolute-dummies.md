@@ -1,8 +1,7 @@
 ---
-layout: posts
-title: The Lambda Calculus for Absolute Dummies (like myself)
+title: "The Lambda Calculus for Absolute Dummies (like myself)"
 published: true
-excerpt: Well, well, well.
+excerpt: "Well, well, well."
 ---
 
 
