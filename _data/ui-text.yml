@@ -18,9 +18,9 @@ en: &DEFAULT_EN
   tags_label            : "Tags:"
   categories_label      : "Categories:"
   date_label            : "Updated:"
-  comments_label        : "Leave a Comment"
-  more_label            : "Learn More"
-  related_label         : "You May Also Enjoy"
+  comments_label        : "Thoughts?"
+  more_label            : "More"
+  related_label         : "Related thoughts:"
   follow_label          : "Follow:"
   feed_label            : "Feed"
   powered_by            : "Powered by"
@@ -33,3 +33,33 @@ en-UK:
 
 # Another locale
 # --------------
+
+# German
+# -----------------
+de: &DE
+  page                  : "Seite"
+  pagination_previous   : "Voriger"
+  pagination_next       : "Nächster"
+  breadcrumb_home_label : "Home"
+  breadcrumb_separator  : "/"
+  toc_label             : "Auf dieser Seite"
+  ext_link_label        : "Direkter Link"
+  less_than             : "weniger als"
+  minute_read           : "Minute Lesezeit"
+  minutes_read          : "Minuten Lesezeit"
+  share_on_label        : "Posten auf"
+  meta_label            :
+  tags_label            : "Tags:"
+  categories_label      : "Themen:"
+  date_label            : "Updated:"
+  comments_label        : "Eigene Gedanken?"
+  more_label            : "Weiter"
+  related_label         : "Weiterlesen:"
+  follow_label          : "Follow:"
+  feed_label            : "Feed"
+  powered_by            : "Powered by"
+  website_label         : "Website"
+  email_label           : "Email"
+
+de-DE:
+ <<: *DE
