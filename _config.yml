@@ -11,7 +11,7 @@ title                    : "Joscha Bach"
 title_separator          : " - "
 name                     : "Joscha Bach"
 description              : "Personal homepage"
-url                      : "//joschabach.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://joschabach.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -213,7 +213,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      #author_profile: true
       #read_time: true
       comments: true
       share: true

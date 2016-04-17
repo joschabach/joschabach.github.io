@@ -1,10 +1,9 @@
 ---
 title: "The Lambda Calculus for Absolute Dummies (like myself)"
-
+excerpt: "Well, well, well."
 ---
 
 
-# The Lambda Calculus for Absolute Dummies (like myself)
 
 If there is one highly underrated concept in philosophy today, it is _computation_. Why is it so important? Because computationalism is the new mechanism. For millennia, philosophers have struggled when they wanted to express or doubt that the universe can be explained in a mechanical way, because it is so difficult to explain what a machine is, and what it is not. The term _computation_ does just this: it defines exactly what machines can do, and what not. If the universe/the mind/the brain/bunnies/God is explicable in a mechanical way, then it is a computer, and vice versa.
 
