@@ -133,7 +133,8 @@ excerpt_separator: "\n\n"
 incremental: false
 
 sass:
-  sass_dir: "assets/_scss"
+  sass_dir: assets/_scss
+  style: compressed
 
 
 # Markdown Processing
