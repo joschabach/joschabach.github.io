@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Joscha Bach"
-title_separator          : "-"
+title_separator          : " - "
 name                     : "Joscha Bach"
 description              : "Personal homepage"
 url                      : "//joschabach.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
