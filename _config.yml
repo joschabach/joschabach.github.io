@@ -131,6 +131,8 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+sass:
+  sassdir: assets/_scss
 
 
 # Markdown Processing
