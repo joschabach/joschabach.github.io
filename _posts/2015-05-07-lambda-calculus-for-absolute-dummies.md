@@ -32,7 +32,7 @@ We only have the following symbols:
 - The greek letter `λ` (pronounced, of course: _Lambda_), and the dot: `.` With `λ` and the dot, we can write functions. A function starts always with the `λ` and a variable, followed by a dot, and then comes an expression. The `λ` does not have any complicated meaning: it just says that a function starts here. The `λ`-_variable_-`.` part of a function is called its _head_, and the remainder (the expression) is called the _body_.
 
 <figure>
-    <img src="/images/the-lambda-calculus-for-absolute-dummies/lambda1.png">
+    <img src="/images/the-lambda-calculus-for-absolute-dummies/lambda1.png" width="60%">
     <figcaption>A function.</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Slightly more formally, we can say: All variables are _lambda terms_ (a valid ex
 Functions can be _resolved_ if they are followed by another expression. The resolution works by taking the variable mentioned in the _head_, and replacing all of its occurrences within the _body_ with the expression after the function. We _cut_ the expression after the function, and _paste_ it into the body, in every place indicated by the head. Having done that, we throw the head away, because it has served its purpose: telling us which variable to replace.
 
 <figure>
-     <img src="/images/the-lambda-calculus-for-absolute-dummies/lambda2.png">
+     <img src="/images/the-lambda-calculus-for-absolute-dummies/lambda2.png" width="60%">
      <figcaption>Resolving a function: Replacing all occurrences of `y` with the expression `(ab)`</figcaption>
 </figure>
  
