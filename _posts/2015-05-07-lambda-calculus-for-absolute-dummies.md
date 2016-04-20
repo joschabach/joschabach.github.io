@@ -55,8 +55,11 @@ Slightly more formally, we can say: All variables are _lambda terms_ (a valid ex
 
 Functions can be _resolved_ if they are followed by another expression. The resolution works by taking the variable mentioned in the _head_, and replacing all of its occurrences within the _body_ with the expression after the function. We _cut_ the expression after the function, and _paste_ it into the body, in every place indicated by the head. Having done that, we throw the head away, because it has served its purpose: telling us which variable to replace.
 
-lambda2.png Resolving a function: Replacing all occurrences of `y` with the expression `(ab)`
-
+<figure>
+     <img src="the-lambda-calculus-for-absolute-dummies/lambda2.png">
+     <figcaption>Resolving a function: Replacing all occurrences of `y` with the expression `(ab)`</figcaption>
+</figure>
+ 
 The resolution of functions is the only thing we can ever do in the Lambda Calculus. Once we have gotten rid of all the lambdas, or if there are no more expressions after the remaining functions, we cannot replace anything any more. We can go home now.
 
 > **Q:** Can functions contain other functions? 
