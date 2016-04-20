@@ -14,6 +14,7 @@ en: &DEFAULT_EN
   minute_read           : "minute read"
   minutes_read          : "minutes read"
   share_on_label        : "Share on"
+  share_via_email       : "Share via email"
   meta_label            :
   tags_label            : "Tags:"
   categories_label      : "Categories:"
@@ -48,6 +49,7 @@ de: &DE
   minute_read           : "Minute Lesezeit"
   minutes_read          : "Minuten Lesezeit"
   share_on_label        : "Posten auf"
+  share_via_email       : "Link als Email versenden"
   meta_label            :
   tags_label            : "Tags:"
   categories_label      : "Themen:"

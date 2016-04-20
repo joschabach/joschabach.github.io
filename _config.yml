@@ -50,9 +50,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : 75035586
 
 # Google AdSense
 google_ad_client         :
@@ -209,6 +209,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  ideas:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -218,7 +222,27 @@ defaults:
     values:
       layout: single
       #author_profile: true
-      #read_time: true
+      read_time: true
       comments: true
       share: true
-      #related: true
+      related: true
+
+  # _ideas
+  - scope:
+        path: ""
+        type: ideas
+      values:
+        layout: single
+        #author_profile: true
+        #read_time: true
+        comments: true
+        share: true
+        related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

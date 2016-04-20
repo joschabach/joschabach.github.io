@@ -1,3 +1,8 @@
+---
+permalink: /publications/
+title: Publications
+---
+
 Bach, J. (2012). MicroPsi 2: The Next Generation of the MicroPsi Framework. Proceedings of the Fifth Conference on Artificial General Intelligence (AGI 2012), Oxford, UK: 11-20
 
 Bach, J. (2012). A Framework for Emergent Emotions, Based on Motivation and Cognitive Modulators. International Journal of Synthetic Emotions (IJSE), 3(1), 43-63

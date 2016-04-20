@@ -1,20 +1,25 @@
 ---
 title: "The Lambda Calculus for Absolute Dummies (like myself)"
-excerpt: "Well, well, well."
+header:
+  image: the-lambda-calculus-for-absolute-dummies/feature.png
+image:
+  feature: the-lambda-calculus-for-absolute-dummies/feature.png
+  thumb: the-lambda-calculus-for-absolute-dummies/thumb.png #keep it square 200x200 px is good
+excerpt: "Computation might be the most important addition to philosophy in the last century, and it is probably best understood not through the Turing Machine, but through the Lambda Calculus. Here is an introduction for non-mathematicians."
 ---
 
-
+{% include toc %}
 
 If there is one highly underrated concept in philosophy today, it is _computation_. Why is it so important? Because computationalism is the new mechanism. For millennia, philosophers have struggled when they wanted to express or doubt that the universe can be explained in a mechanical way, because it is so difficult to explain what a machine is, and what it is not. The term _computation_ does just this: it defines exactly what machines can do, and what not. If the universe/the mind/the brain/bunnies/God is explicable in a mechanical way, then it is a computer, and vice versa.
 
 Unfortunately, most people outside of programming and computer science don't know exactly what computation means. Many may have heard of Turing Machines, but these things tend to do more harm than good, because they leave strong intuitions of moving wheels and tapes, instead of what it really does: embodying the nature of computation.
 
-youtube E3keLeMwfHY
-(A Turing Machine, doing more harm than good. But very cool, nonetheless!)
+<figure>
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/E3keLeMwfHY" frameborder="0" caption="test"> </iframe>
+    <figcaption>(A Turing Machine, doing more harm than good. But very cool, nonetheless!)</figcaption>
+</figure>
 
 The Lambda Calculus does exactly the same thing, but without wheels to cloud your vision. It might look frighteningly mathematical from a distance (it has a greek letter in it, after all!), so nobody outside of academic computer science tends to look at it, but it is unbelievably easy to understand. And if you understood it, you might end up with a much better intuition of computation.
-
-<!--more-->
 
 The Lambda Calculus has been invented at roughly the same time as the Turing Machine (mid-1930ies), by Alonzo Church. Don't be intimidated by the word "calculus"! It does not have any complicated formulae or operations. All it ever does is taking a line of letters (or symbols), and performing a little cut and paste operation on it. As you will see, the Lambda Calculus can compute everything that can be computed, just with a very simple cut and paste.
 
@@ -26,20 +31,22 @@ We only have the following symbols:
 - Parentheses: `( )`. Parentheses can be used to indicate that some part of an expression belongs together (just as the braces around this part of the sentence make it belong together). Where we don't have parentheses, we look at expressions simply from left to right.
 - The greek letter `λ` (pronounced, of course: _Lambda_), and the dot: `.` With `λ` and the dot, we can write functions. A function starts always with the `λ` and a variable, followed by a dot, and then comes an expression. The `λ` does not have any complicated meaning: it just says that a function starts here. The `λ`-_variable_-`.` part of a function is called its _head_, and the remainder (the expression) is called the _body_.
 
-lambda1.png
-A function.
+<figure>
+    <img src="the-lambda-calculus-for-absolute-dummies/lambda1.png">
+    <figcaption>A function.</figcaption>
+</figure>
 
 
 > **Q:** What is the value or meaning of a variable? 
-
+>
 > **A:** None. Variables do not stand for anything. They are just empty names. Even the name is unimportant. The only thing that matters is: when two variables have the same name, they are the same. You can rename variables all you want, without changing the expression.
-
+>
 > **Q:** What does a function calculate? 
-
+>
 > **A:** Nothing, really. It is just a kind of expression, with a head and a body. It just stands there. The only thing we can do with it is to resolve it.
-
+>
 > **Q:** Why "`λ`"? 
-
+>
 > **A:** An accident, perhaps. Initially, Alonzo Church just drew a little roof to mark the head variable, like this: `(ŷ xy) ab`. In the typed manuscript, he put the roof in front of the head, so it became `(⋀y.xy) ab`. The typesetter turned it into `(λy.xy) ab`, which is visually close enough.
 
 Slightly more formally, we can say: All variables are _lambda terms_ (a valid expression in the lambda calculus). If `x` and `y` are lambda terms, then `(x y)` is a lambda term, and `(λx.y)` is a lambda term. From these three rules, we can construct all valid expressions. If we also agree to read all lambda expressions from left to right, we can omit a few of the parenthesis: `(λy.xy) ab` is the simplified version of `(((λy.(x y)) a) b)`.
@@ -52,18 +59,21 @@ lambda2.png Resolving a function: Replacing all occurrences of `y` with the expr
 
 The resolution of functions is the only thing we can ever do in the Lambda Calculus. Once we have gotten rid of all the lambdas, or if there are no more expressions after the remaining functions, we cannot replace anything any more. We can go home now.
 
-**Q:** Can functions contain other functions? 
-
-**A:** Absolutely. Functions are expressions, and expressions can contain other expressions, so functions can be parts of the bodies of other functions, or be part of the replacing expression. In fact, we have expressions like `λx.λy.xzy` so often that we like to abbreviate them as `λxy.xzy`. This means that we will try to replace the first variable in the head (`x`) with the first expression after the body (`xzy`), the second variable (`y`) with the next one after that, and so on. 
+> **Q:** Can functions contain other functions? 
+>
+> **A:** Absolutely. Functions are expressions, and expressions can contain other expressions, so functions can be parts of the bodies of other functions, or be part of the replacing expression. In fact, we have expressions like `λx.λy.xzy` so often that we like to abbreviate them as `λxy.xzy`. This means that we will try to replace the first variable in the head (`x`) with the first expression after the body (`xzy`), the second variable (`y`) with the next one after that, and so on. 
 
 The variables mentioned in the head (the one tagged for replacement) are called _bound variables_. Unmentioned variables are _free variables_. Because functions can be part of other functions, a variable may be both bound and free in the same expression.
 
-**Q:** I find this a little bit confusing. 
+> **Q:** I find this a little bit confusing. 
+>
+> **A:** Think of it like this: Imagine you are editing a very minimalist gossip newspaper. Everything the newspaper writes about, ever, are names (we don't have articles, verbs, pronouns--just names). People don't want to be recognized in your paper, and you anonymize them by replacing all names with arbitrary pseudonyms. So, the names do not mean anything, but if two names in the same text are the same, they refer to the same person. 
 
-**A:** Think of it like this: Imagine you are editing a very minimalist gossip newspaper. Everything the newspaper writes about, ever, are names (we don't have articles, verbs, pronouns--just names). People don't want to be recognized in your paper, and you anonymize them by replacing all names with arbitrary pseudonyms. So, the names do not mean anything, but if two names in the same text are the same, they refer to the same person. 
+<figure>
+     <img src="the-lambda-calculus-for-absolute-dummies/newspaper.jpg">
+     <figcaption>Minimalist Lambda Newspaper</figcaption>
+</figure>
 
-newspaper.jpg
-Minimalist Lambda Newspaper
 
 All text in the newspaper is arranged in _text blocks_. A text block is ultimately made up of nothing but names, and it may have a headline, but does not have to. Headlines are printed in bold face, and consist of a single name. All occurrences of that name within the text belonging to the headline are _famous_, that is, they refer to that headline person. All names that are not headline material are _ordinary_. Text blocks may contain other text blocks, including their headings (which work like sub-headings, or sub-sub-headings and so on). Thus, a name may be ordinary in one sub-text, but in another, it may be made famous by the headline of that sub-text. 
 
@@ -75,9 +85,9 @@ By the way: we might run into a little problem if the replacing text contains na
 
 Alternatively, we might insist that no two text blocks use the same names. (In other words: either use different variables in unrelated expressions, or make sure you do not forget to rename them during the replace operation as necessary.)
 
-**Q:** What happens if a variable is bound in the head of a function, but does not occur in the body? 
-
-**A:** The variable is bound, of course. But during replacement, the replacing expression will simply disappear, as there are no places where it could be inserted. That is ok, really: it simplifies our result, so what is not to like?
+> **Q:** What happens if a variable is bound in the head of a function, but does not occur in the body? 
+>
+> **A:** The variable is bound, of course. But during replacement, the replacing expression will simply disappear, as there are no places where it could be inserted. That is ok, really: it simplifies our result, so what is not to like?
 
 ## Numbers
 
@@ -140,9 +150,9 @@ and lo! and behold:
 
 As we see, our successor function does exactly what it is supposed to do: starting from `0`, it can produce any natural number. It does this by bracing one more `s(`...`)` part around the body of any natural number supplied to it. Ah, the magical powers of cut and paste! 
 
-**Q:** This is a very strange way of writing numbers...
-
-**A:** Actually, from the point of view of mathematics, this is not stranger than using the characters 1, 2, 3... and so on, or Roman literals (I, II, III, IV, V...), or Chinese ones (一, 二, 三, 四, 五, ...), or  binary notation (1, 10, 11, 100, 101...). There is no true way of writing numbers, there are only conventions. Natural numbers do not care about how we spell them.
+> **Q:** This is a very strange way of writing numbers...
+>
+> **A:** Actually, from the point of view of mathematics, this is not stranger than using the characters 1, 2, 3... and so on, or Roman literals (I, II, III, IV, V...), or Chinese ones (一, 二, 三, 四, 五, ...), or  binary notation (1, 10, 11, 100, 101...). There is no true way of writing numbers, there are only conventions. Natural numbers do not care about how we spell them.
 
 ## Addition
 
@@ -228,9 +238,9 @@ P n :⇔  (λn.n NEXT-PAIR(0, 0)) λxy.y
 
 Using the predecessor function `P`, we can indeed count backwards within the natural numbers. Note that once we reach 0, we will stay at 0, which is probably a good thing. I will leave the definition of negative numbers, division, powers and imaginary numbers as an exercise to the reader. (Well, in seriousness: we could easily fill many pages with the recreation of the standard inventory of set and number theory, but won't add very much to our basic understanding.)
 
-**Q:** I can see how we can do subtraction: by applying the predecessor operation multiple times. But every time, we have to go back to 0 and produce all intermediate numbers with the successor operation, just to do a single predecessor operation. Isn't this very inefficient?
-
-**A:** Who cares! The Lambda Calculus only claims to effectively compute everything that can be computed–but it does not promise to do it efficiently. (Also, it is a mathematical idea, so it can run at infinite speed in some ephemeral mathematical universe.)
+> **Q:** I can see how we can do subtraction: by applying the predecessor operation multiple times. But every time, we have to go back to 0 and produce all intermediate numbers with the successor operation, just to do a single predecessor operation. Isn't this very inefficient?
+>
+> **A:** Who cares! The Lambda Calculus only claims to effectively compute everything that can be computed–but it does not promise to do it efficiently. (Also, it is a mathematical idea, so it can run at infinite speed in some ephemeral mathematical universe.)
 
 ## Logic
 

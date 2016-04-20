@@ -3,14 +3,16 @@
 {% if page.previous or page.next %}
   <nav class="pagination">
     {% if page.previous %}
-      <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous }}</a>
+      <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ site.data.ui-text[site.locale].pagination_previous }}"><i
+        class="fa fa-fw fa-arrow_left" aria-hidden="true"></i>{{ page.previous.title | markdownify | strip_html }}</a>
     {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous }}</a>
+      <a href="#" class="pagination--pager disabled"> </a>
     {% endif %}
     {% if page.next %}
-      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next }}</a>
+      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ site.data.ui-text[site.locale].pagination_next }}">{{ page.next.title | markdownify | strip_html }}<i
+        class="fa fa-fw fa-arrow_right" aria-hidden="true"></i></a>
     {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next }}</a>
+      <a href="#" class="pagination--pager disabled"> </a>
     {% endif %}
   </nav>
 {% endif %}

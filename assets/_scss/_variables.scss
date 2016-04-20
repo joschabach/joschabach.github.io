@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size              : 16;
+$doc-font-size              : 15;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -18,9 +18,9 @@ $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
-$sans-serif-narrow          : $sans-serif;
+$sans-serif-narrow          : "Open Sans Condensed", $sans-serif;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
-$questrial                  : Questrial, sans-serif;
+$open-sans                  : "Open Sans", sans-serif;
 
 /* serif typefaces */
 $georgia                    : Georgia, serif;
@@ -28,16 +28,16 @@ $times                      : Times, serif;
 $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
-$fredericka                 : 'Fredericka the Great', cursive;
+$gentium                    : Gentium, Garamond, serif;
 
 
-$navigation-font-family     : $times;
-$global-font-family         : $times;
-$header-font-family         : $times;
-$caption-font-family        : $serif;
+$navigation-font-family     : $open-sans;
+$global-font-family         : $gentium;
+$header-font-family         : $sans-serif;
+$caption-font-family        : $gentium;
 
 /* type scale */
-$type-size-1                : 2.441em;  // ~39.056px
+$type-size-1                : 3.505em;  // ~39.056px
 $type-size-2                : 1.953em;  // ~31.248px
 $type-size-3                : 1.563em;  // ~25.008px
 $type-size-4                : 1.25em;   // ~20px
@@ -52,14 +52,14 @@ $type-size-8                : 0.625em;  // ~10px
    ========================================================================== */
 
 $gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
+$dark-gray                  : mix(#000, $gray, 60%);
+$darker-gray                : mix(#000, $gray, 80%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #fff;
 $background-color           : #fff;
-$code-background-color      : #fafafa;
+$code-background-color      : #f8f8f8;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
@@ -145,7 +145,7 @@ $susy: (
    ========================================================================== */
 
 $border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$box-shadow                 : 1px 0.5px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
