@@ -227,18 +227,6 @@ defaults:
       share: true
       related: true
 
-  # _ideas
-  - scope:
-        path: ""
-        type: ideas
-      values:
-        layout: single
-        #author_profile: true
-        #read_time: true
-        comments: true
-        share: true
-        related: true
-
   # _pages
   - scope:
       path: ""
