@@ -1,10 +1,10 @@
 ---
 title: "The Lambda Calculus for Absolute Dummies (like myself)"
 header:
-  image: the-lambda-calculus-for-absolute-dummies/feature.png
+  image: /images/the-lambda-calculus-for-absolute-dummies/feature.png
 image:
-  feature: the-lambda-calculus-for-absolute-dummies/feature.png
-  thumb: the-lambda-calculus-for-absolute-dummies/thumb.png #keep it square 200x200 px is good
+  feature: /images/the-lambda-calculus-for-absolute-dummies/feature.png
+  thumb: /images/the-lambda-calculus-for-absolute-dummies/thumb.png #keep it square 200x200 px is good
 excerpt: "Computation might be the most important addition to philosophy in the last century, and it is probably best understood not through the Turing Machine, but through the Lambda Calculus. Here is an introduction for non-mathematicians."
 ---
 
@@ -32,7 +32,7 @@ We only have the following symbols:
 - The greek letter `λ` (pronounced, of course: _Lambda_), and the dot: `.` With `λ` and the dot, we can write functions. A function starts always with the `λ` and a variable, followed by a dot, and then comes an expression. The `λ` does not have any complicated meaning: it just says that a function starts here. The `λ`-_variable_-`.` part of a function is called its _head_, and the remainder (the expression) is called the _body_.
 
 <figure>
-    <img src="the-lambda-calculus-for-absolute-dummies/lambda1.png">
+    <img src="/images/the-lambda-calculus-for-absolute-dummies/lambda1.png">
     <figcaption>A function.</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Slightly more formally, we can say: All variables are _lambda terms_ (a valid ex
 Functions can be _resolved_ if they are followed by another expression. The resolution works by taking the variable mentioned in the _head_, and replacing all of its occurrences within the _body_ with the expression after the function. We _cut_ the expression after the function, and _paste_ it into the body, in every place indicated by the head. Having done that, we throw the head away, because it has served its purpose: telling us which variable to replace.
 
 <figure>
-     <img src="the-lambda-calculus-for-absolute-dummies/lambda2.png">
+     <img src="/images/the-lambda-calculus-for-absolute-dummies/lambda2.png">
      <figcaption>Resolving a function: Replacing all occurrences of `y` with the expression `(ab)`</figcaption>
 </figure>
  
@@ -73,7 +73,7 @@ The variables mentioned in the head (the one tagged for replacement) are called 
 > **A:** Think of it like this: Imagine you are editing a very minimalist gossip newspaper. Everything the newspaper writes about, ever, are names (we don't have articles, verbs, pronouns--just names). People don't want to be recognized in your paper, and you anonymize them by replacing all names with arbitrary pseudonyms. So, the names do not mean anything, but if two names in the same text are the same, they refer to the same person. 
 
 <figure>
-     <img src="the-lambda-calculus-for-absolute-dummies/newspaper.jpg">
+     <img src="/images/the-lambda-calculus-for-absolute-dummies/newspaper.jpg">
      <figcaption>Minimalist Lambda Newspaper</figcaption>
 </figure>
 
