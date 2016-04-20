@@ -1,10 +1,10 @@
 ---
 title: "The Lambda Calculus for Absolute Dummies (like myself)"
 header:
-  image: /images/the-lambda-calculus-for-absolute-dummies/feature.png
+  image: the-lambda-calculus-for-absolute-dummies/feature.png
 image:
-  feature: /images/the-lambda-calculus-for-absolute-dummies/feature.png
-  thumb: /images/the-lambda-calculus-for-absolute-dummies/thumb.png #keep it square 200x200 px is good
+  feature: the-lambda-calculus-for-absolute-dummies/feature.png
+  thumb: the-lambda-calculus-for-absolute-dummies/thumb.png #keep it square 200x200 px is good
 excerpt: "Computation might be the most important addition to philosophy in the last century, and it is probably best understood not through the Turing Machine, but through the Lambda Calculus. Here is an introduction for non-mathematicians."
 ---
 
