@@ -7,7 +7,7 @@ body {
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.8;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -17,43 +17,40 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
-  line-height: 1.179;
+  line-height: 1.5;
   font-family: $header-font-family;
   font-weight: normal;
 }
 
 h1 {
   margin-top: 0;
-  font-family: $sans-serif-narrow;
   font-size: $type-size-1;
   font-weight: 300;
 }
 
 h2 {
-  font-family: $sans-serif-narrow;
   font-size: $type-size-3;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 h3 {
-  font-family: $sans-serif-narrow;
-  font-size: $type-size-3;
+  font-size: $type-size-4;
   font-weight: 300;
 }
 
 h4 {
   font-size: $type-size-5;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 h5 {
-  font-size: $type-size-6;
-  font-weight: 700;
+  font-size: $type-size-5;
+  font-weight: 300;
 }
 
 h6 {
-  font-size: $type-size-6;
-  font-weight: 600;
+  font-size: $type-size-5;
+  font-weight: 300;
 
 }
 
@@ -142,7 +139,7 @@ a > code,
 li > code,
 figcaption > code,
 td > code {
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 
   &:before, &:after {
     //letter-spacing: -0.2em;

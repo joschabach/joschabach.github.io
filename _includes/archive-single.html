@@ -1,7 +1,7 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% if post.header.thumb %}
+  {% capture teaser %}{{ post.header.thumb }}{% endcapture %}
 {% else %}
   {% capture teaser %}{{ site.teaser }}{% endcapture %}
 {% endif %}
@@ -28,7 +28,7 @@
       {% if post.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
-      {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+      {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}</p>{% endif %}
     </article>
   </a>
 </div>

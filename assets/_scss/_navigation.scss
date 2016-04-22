@@ -13,7 +13,7 @@
   margin-bottom: 0;
   padding-left: 2em;
   padding-right: 2em;
-  font-family: $sans-serif;
+  font-family: $ui-family;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.30s;
@@ -61,30 +61,31 @@
   @include clearfix();
   margin-top: 1em;
   padding-top: 1em;
+  display: table;
+  float: none;
 
   ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: $sans-serif;
+    font-family: $global-font-family;
   }
 
   li {
     display: block;
-    float: left;
     margin-left: -1px;
+    float: left;
 
     a {
       margin-bottom: 0.25em;
       padding: 0.5em 1em;
-      font-family: $sans-serif;
-      font-size: 14px;
-      font-weight: bold;
+      font-family: $global-font-family;
+      font-size: $type-size-6;
+      font-weight: normal;
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
       color: mix(#fff, $gray, 25%);
-      border: 1px solid $light-gray;
       border-radius: 0;
 
       &:hover {
@@ -122,33 +123,41 @@
 
   /* next/previous buttons */
   &--pager {
-    display: block;
     padding: 1em 2em;
-    float: left;
+    display: table-cell;
     width: 50%;
-    font-family: $sans-serif;
-    font-size: $type-size-5;
-    font-weight: bold;
-    text-align: center;
+    font-family: $global-font-family;
+    font-size: $type-size-6;
+    font-weight: normal;
+
     text-decoration: none;
-    color: mix(#fff, $gray, 25%);
-    border: 1px solid $light-gray;
-    border-radius: $border-radius;
+    color: mix(#000, $gray, 75%);
+
+    div {
+      display: table-cell;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+    }
+
+    div.text {
+        width: 100%;
+    }
 
     &:hover {
       color: $link-color-hover;
     }
 
     &:first-child {
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
+      text-align: left;
     }
 
+
     &:last-child {
-      margin-left: -1px;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
+      text-align: right;
+
     }
+
+
 
     &.disabled {
       color: $light-gray;
@@ -162,9 +171,10 @@
 .page__meta + .pagination,
 .page__share + .pagination,
 .page__comments + .pagination {
-  margin-top: 2em;
-  padding-top: 2em;
-  border-top: 1px solid $border-color;
+  margin-top: 1em;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid $lighter-gray;
 }
 
 
@@ -331,7 +341,7 @@
     padding-left: 0.5em;
     padding-right: 0.5em;
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
     background: $primary-color;
     border-radius: $border-radius;
 
@@ -344,18 +354,18 @@
 .nav__title {
   margin: 0;
   padding: 0.5rem 1rem;
-  font-family: $sans-serif-narrow;
+  font-family: $header-font-family;
   font-size: $type-size-5;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .nav__sub-title {
   display: block;
   margin: 0.5rem 0;
   padding: 0.5rem 0;
-  font-family: $sans-serif-narrow;
+  font-family: $header-font-family;
   font-size: $type-size-6;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
@@ -366,9 +376,8 @@
    ========================================================================== */
 
 .toc {
-  font-family: $sans-serif-narrow;
+  font-family: $header-font-family;
   color: $gray;
-  text-transform: uppercase;
   letter-spacing: 1px;
   background-color: #fff;
   border: 1px solid $border-color;

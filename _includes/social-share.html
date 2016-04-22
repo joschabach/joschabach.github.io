@@ -1,9 +1,8 @@
 {% include base_path %}
 
-<section class="page__share">
-  {% if site.data.ui-text[site.locale].share_on_label %}
-    <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label }}</h4>
-  {% endif %}
+<p class="page__share">
+
+  <i class="fa fa-share" aria-hidden="true"></i>
 
   <a href="https://twitter.com/intent/tweet?text={{ base_path }}{{ page.url }}" class="btn btn--twitter" title="{{ site.data.ui-text[site.locale].share_on_label }} Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> </a>
 
@@ -14,4 +13,4 @@
   <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ base_path }}{{ page.url }}" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label }} LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i></a>
 
   <a href="mailto:?subject=&amp;body={{ page.title }}%0A%0A{{ base_path }}{{ page.url }}" class="btn btn--envelope-o" title="{{ site.data.ui-text[site.locale].share_via_email }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>
-</section>
+</p>

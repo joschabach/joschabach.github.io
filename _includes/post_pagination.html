@@ -3,14 +3,12 @@
 {% if page.previous or page.next %}
   <nav class="pagination">
     {% if page.previous %}
-      <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ site.data.ui-text[site.locale].pagination_previous }}"><i
-        class="fa fa-fw fa-arrow_left" aria-hidden="true"></i>{{ page.previous.title | markdownify | strip_html }}</a>
+      <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ site.data.ui-text[site.locale].pagination_previous }}"><div>⟵</div><div>{{ site.data.ui-text[site.locale].pagination_previous }}: {{ page.previous.title | markdownify | strip_html }}</div></a>
     {% else %}
       <a href="#" class="pagination--pager disabled"> </a>
     {% endif %}
     {% if page.next %}
-      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ site.data.ui-text[site.locale].pagination_next }}">{{ page.next.title | markdownify | strip_html }}<i
-        class="fa fa-fw fa-arrow_right" aria-hidden="true"></i></a>
+      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ site.data.ui-text[site.locale].pagination_next }}"><div class="text">{{ site.data.ui-text[site.locale].pagination_next }}: {{ page.next.title | markdownify | strip_html }}</div><div>⟶</div></a>
     {% else %}
       <a href="#" class="pagination--pager disabled"> </a>
     {% endif %}

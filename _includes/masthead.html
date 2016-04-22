@@ -15,6 +15,7 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/feed.xml" title="{{ site.data.ui-text[site.locale].feed_label }}"><i class="fa fa-fw fa-rss" aria-hidden="true"></i></a></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

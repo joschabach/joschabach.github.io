@@ -10,8 +10,8 @@
   padding-right: 2em;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
-  -webkit-animation-delay: 0.35s;
-  animation-delay: 0.35s;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
 
   @include breakpoint($large) {
     padding-left: 1em;
@@ -43,7 +43,6 @@
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -87,13 +86,13 @@
 
   dt {
     margin-top: 1em;
-    font-family: $sans-serif;
+    font-family: $ui-family;
     font-weight: bold;
   }
 
   dd {
     margin-left: 1em;
-    font-family: $sans-serif;
+    font-family: $ui-family;
     font-size: $type-size-6;
   }
 
@@ -190,9 +189,7 @@
    ========================================================================== */
 
 .page__share {
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid $border-color;
+  float: right;
 
   @include breakpoint(max-width $small) {
     .btn span {
@@ -221,8 +218,7 @@
 
 .page__meta {
   margin-top: 2em;
-  color: mix(#fff, $gray, 25%);
-  font-family: $sans-serif;
+  font-family: $header-font-family;
   font-size: $type-size-6;
 
   p {
@@ -238,6 +234,12 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+.page__date {
+  width: 1px;
+  float: none;
+  display: inline;
 }
 
 
