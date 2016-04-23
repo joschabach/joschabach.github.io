@@ -115,14 +115,16 @@
     opacity: 0.65;
   }
 
-  /* social buttons */
+
+  /* circular icon buttons */
 
   $social:
-  (facebook, $facebook-color),
-  (twitter, $twitter-color),
-  (google-plus, $google-plus-color),
-  (linkedin, $linkedin-color),
-  (envelope-o, $light-gray); /* email */
+    (facebook, $facebook-color),
+    (twitter, $twitter-color),
+    (google-plus, $google-plus-color),
+    (linkedin, $linkedin-color),
+    (envelope-o, $light-gray), /* email */
+    (circular, $link-color); /* generic circular button */
 
 
   @each $socialnetwork, $color in $social {
