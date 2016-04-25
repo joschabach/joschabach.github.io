@@ -26,9 +26,22 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+          {% if site.categories.type and page.categories[0] %}
+          {% include category-list.html %}
+          {% endif %}
           {% if page.read_time %}
-            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+
+          <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+          {% if page.subtitle %}
+          <h2 class="page__subtitle">{{ page.subtitle | markdownify | remove: "<p>" | remove: "</p>"}}</h2>
+          {% endif %}
+
+          {% if page.modified %}
+          <p class="page__date"><time datetime="{{ page.modified | date: " %Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+          {% elsif page.date %}
+          <p class="page__date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
           {% endif %}
         </header>
       {% endunless %}
@@ -42,12 +55,10 @@ layout: default
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
-        {% include page__taxonomy.html %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+        {% if site.tags.type and page.tags[0] %}
+          {% include tag-list.html %}
         {% endif %}
+
 
         {% if page.share %}{% include social-share.html %}{% endif %}
       </footer>
