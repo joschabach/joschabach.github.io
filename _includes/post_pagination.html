@@ -4,12 +4,12 @@
   <nav class="pagination">
     {% if page.previous %}
       <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ site.data.ui-text[site.locale].pagination_previous }}"><div><span class="btn btn--circular">
-        ⟵</span></div><div>{{ site.data.ui-text[site.locale].pagination_previous }}: {{ page.previous.title | markdownify | strip_html }}</div></a>
+        ⟵</span></div><div>{{ site.data.ui-text[site.locale].pagination_previous }}<br /> {{ page.previous.title | markdownify | strip_html }}</div></a>
     {% else %}
       <a href="#" class="pagination--pager disabled"> </a>
     {% endif %}
     {% if page.next %}
-      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ site.data.ui-text[site.locale].pagination_next }}"><div class="text">{{ site.data.ui-text[site.locale].pagination_next }}: {{ page.next.title | markdownify | strip_html }}</div><div>
+      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ site.data.ui-text[site.locale].pagination_next }}"><div class="text">{{ site.data.ui-text[site.locale].pagination_next }}<br /> {{ page.next.title | markdownify | strip_html }}</div><div>
         <span class="btn btn--circular">⟶</span></div></a>
     {% else %}
       <a href="#" class="pagination--pager disabled"> </a>

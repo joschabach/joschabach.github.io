@@ -15,8 +15,8 @@ url                      : "http://joschabach.com" # the base hostname & protoco
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs              : false # true, false (default)
-# words_per_minute         : 200
+breadcrumbs              : true # true, false (default)
+words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
@@ -218,7 +218,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      #read_time: true
+      read_time: true
       comments: true
       share: true
       related: true
