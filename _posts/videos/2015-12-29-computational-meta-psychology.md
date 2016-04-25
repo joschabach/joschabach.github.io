@@ -1,5 +1,6 @@
 ---
-title: "Computational Meta-Psychology: An Artificial Intelligence Exploration into the creation of meaning."
+title: "Computational Meta-Psychology"
+subtitle: "An Artificial Intelligence Exploration into the creation of meaning."
 tags: 
   - chaos communication congress
   - lecture
