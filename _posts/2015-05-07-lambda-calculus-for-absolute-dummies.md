@@ -1,5 +1,6 @@
 ---
 title: "The Lambda Calculus for Absolute Dummies (like myself)"
+category: AI
 header:
   image: the-lambda-calculus-for-absolute-dummies/feature.png
 image:

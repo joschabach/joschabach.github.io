@@ -125,6 +125,7 @@
   &--pager {
     padding: 1em 2em;
     display: table-cell;
+    vertical-align: middle;
     width: 50%;
     font-family: $global-font-family;
     font-size: $type-size-6;
@@ -135,6 +136,7 @@
 
     div {
       display: table-cell;
+      vertical-align: middle;
       padding-left: 0.5em;
       padding-right: 0.5em;
     }

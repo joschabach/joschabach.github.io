@@ -150,7 +150,7 @@ kramdown:
 
 
 # Outputting
-permalink: /:category/:title/
+permalink: /:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "America/New_York" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -209,10 +209,6 @@ compress_html:
   ignore:
     envs: development
 
-collections:
-  ideas:
-    output: true
-    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -227,7 +223,7 @@ defaults:
       share: true
       related: true
       taxonomy: true
-      tags: true
+
 
   # _pages
   - scope:
@@ -236,6 +232,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      taxonomy: true
+
 
 
 
