@@ -1,6 +1,5 @@
 ---
 title: "On Marvin Minsky"
-category: AI
 tags: artificial intelligence, Marvin Minsky
 excerpt: "Marvin Minsky has passed away from us last night. Right before I got the sad news, I had spent an hour in a conversation with a friend in on the other side of the continent, discussing how Marvin has influenced our work and our way of looking at what makes us human."
 ---

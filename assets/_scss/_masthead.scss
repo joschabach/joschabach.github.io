@@ -12,21 +12,18 @@
   z-index: 20;
 
   &__inner-wrap {
-    @include container;
     @include clearfix;
-    padding: 1em 2em 1em;
+    padding: 0.5em 2em 0.5em;
     font-family: $navigation-font-family;
-    font-weight: 700;
+    font-weight: 200;
     text-transform: uppercase;
+    background-color: $masthead-color;
 
     @include breakpoint($large) {
       padding-left: 1em;
       padding-right: 1em;
     }
 
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
 
     nav {
       z-index: 10;
@@ -40,7 +37,7 @@
 
 .masthead__menu {
   @include breakpoint($large) {
-    @include prefix(2.5 of 12);
+    @include prefix(0 of 12);
   }
 
   ul {
@@ -54,10 +51,10 @@
 .masthead__menu-item {
   display: block;
   list-style-type: none;
-  font-size: $type-size-6;
+  font-size: $type-size-7;
   white-space: nowrap;
 
   &--lg {
-    font-size: $type-size-5;
+    font-size: $type-size-6;
   }
 }

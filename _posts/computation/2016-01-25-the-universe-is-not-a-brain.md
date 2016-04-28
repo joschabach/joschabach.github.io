@@ -1,6 +1,5 @@
 ---
 title: "No, the Universe is not a Brain"
-category: Universe
 tags: computationalism, universal brain
 excerpt: "Could the structure the universe support brain-like activities at interplanetary distances?"
 ---
@@ -24,7 +23,7 @@ This image sends a clear message: if we squint a little, then a well-chosen cuto
 
 The latter image is a small portion of a [computer generated impression](http://wwwmpa.mpa-garching.mpg.de/~swhite/talk/Ouagadougou2010.pdf) of a part of our universe:
 <figure>
-    <img src="/images/the-universe-is-not-a-brain/milennium%2Bsimulation.png">
+    <img src="/images/the-universe-is-not-a-brain/millennium-simulation.png">
 </figure>
 
 At the largest size, Google image search tells me that it looks [exactly like foam rubber](https://stockfresh.com/image/1682846/foam-rubber-texture). Foam rubber is created by combining a chemical agent that glomps together through the wonder of polymerization with another chemical agent that delivers lots of gas bubbles to make space between the polymers. Universes are created by rapidly expanding a superdense plasma that glomps together through the wonders of gravity, while lots of expanding vacuum makes space between the galaxy clusters. Brains totally do not look like foam rubber, because the space between  the neurons is filled by other neurons and glia cells and protein sheaths that were all not visible in the selectively stained image above, and also because the cortical surface is stacked into four to six layers that are altogether just a few dozen neurons high.

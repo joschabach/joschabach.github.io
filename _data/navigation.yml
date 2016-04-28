@@ -4,14 +4,17 @@ main:
     url: /publications/
 
   - title: "Courses"
-    url: /courses.html
+    url: /courses/
 
   - title: "Videos"
     url: /videos/
 
-  - title: "Essays"
-    url: /year-archive/
+  - title: "AI and Cognition"
+    url: /ai/
 
-  - title: "Ideas"
-    url: /posts/
+  - title: "Computational Universe"
+    url: /universe/
+
+  - title: "Personal thoughts"
+    url: /random/
 
