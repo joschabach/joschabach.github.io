@@ -12,7 +12,7 @@ excerpt: "How to concoct a secret German chemical that caused incurable addictio
  I grew up in the household of very busy artists, which meant that I had to learn how to cook my own food long before I had the chance to form reasonable ideas about what constitutes a healthy meal. As a result, my favorite dishes include roasted Thuringian potato dumplings, apple rice and crunchily fried spaghetti. 
 
 <figure>
-<img src="images/ubena-spaghetti-spice/ubena-spaghettigewuerz.jpg" />
+<img src="/images/ubena-spaghetti-spice/ubena-spaghettigewuerz.jpg" />
 </figure>
 
 
