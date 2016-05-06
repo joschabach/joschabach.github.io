@@ -1,14 +1,14 @@
 ---
 title: "On Marvin Minsky"
 tags: artificial intelligence, Marvin Minsky
-excerpt: "Marvin Minsky has passed away from us last night. Right before I got the sad news, I had spent an hour in a conversation with a friend in on the other side of the continent, discussing how Marvin has influenced our work and our way of looking at what makes us human."
+excerpt: "Marvin Minsky has passed away from us last night. Nobody else in the 20th century has influenced our work and our way of looking at what makes us human like Marvin did."
 ---
 
 Marvin Minsky has passed away from us last night. Right before I got the sad news, I had spent an hour in a conversation with a friend in on the other side of the continent, discussing how Marvin has influenced our work and our way of looking at what makes us human.
 
 
 <figure>
-    <img src="/images/on-marvin-minsky/minsky.jpg">
+    <img src="/images/on-marvin-minsky/minsky.jpg" />
     <figcaption>(Marvin Minsky, me and Cosmo Harrigan, at his house)</figcaption>
 </figure>
 

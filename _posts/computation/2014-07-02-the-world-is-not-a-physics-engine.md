@@ -1,0 +1,41 @@
+---
+title: The world is not a physics engine, or The Death of (Physicalist) Realism
+tags:
+- computationalism
+- quantum mechanics
+- anti-realism
+- oligopsychism
+- physicalism
+- realism
+excerpt: "The most important consquence of accepting Bell's inequality: The world is not a physics engine. Let us look how we need to modify our view of physicalism."
+thumbnail: /images/the-world-is-not-a-physics-engine/minecraft-mobs.jpg
+---
+
+Chris Lee just wrote a nice introduction regarding the [disenchantment of physicists with realist notions](http://arstechnica.com/science/2014/07/quantum-state-may-be-a-real-thing/). Rather than re-explaining the experiments (see [Bell's theorem](http://en.wikipedia.org/wiki/Bell's_theorem), for starters), let me just point out what I consider to be the most important consequence for our cosmology, namely: _the world is not a physics engine._
+
+<figure>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/FIPu9_OGFgc" frameborder="0"> </iframe> 
+<figcaption>(Physics engine: computing the interaction of things located in time and space)</figcaption>
+</figure>
+
+Obviously, it is impossible to know the nature of the world we inhabit while being entirely caught up inside it: the basic trouble with epistemology is that the world only shows us _phenomena_ (Husserl), or, more basically but inaccurately: discernible differences, i.e. information, and not its structure itself. Thus, we cannot know if anything beyond the phenomena or the information exists. And if it does, what do we mean by "existence"?
+
+After spending a few years in it, most people build strong and persistent intuitions that the world exists, that is, that there is a bunch of interacting things in time and space. (These things could be particles, fields, waves, and macroscopic objects emerging over them.) When we observe something, we get to see phenomena that stem from that interaction. The idea that _only_ these things and their interactions exist is what we usually call _physicalism_, physicalist materialism.
+
+Some people object to the idea that the mechanical interaction of things suffices to explain minds and mental events, and idealism elegantly proposes that mind is primary, with physical appearances being a result of mental activity (not unlike a dream). _Idealism_ does not tell us why the world seems to be so stubbornly regular and nefariously independent from what we wish to believe. (On the other hand, idealism has the potential to accommodate magic, reincarnation, ghosts and precognition much better than a materialist framework.)
+
+_Dualism_, the co-existence of material and mental planes of existence, should make everybody happy, but ended up being discarded by almost everyone, mainly because of the difficulty to explain how a non-mechanical thing (a non-materialistic mind, devoid of physical energy and matter) could interact with the physical world. (The other direction is not problematic, since merely "reading" the state of the physical universe does not need to upset the self-contained balance of the physical universe.)
+
+<figure>
+<img src="/images/the-world-is-not-a-physics-engine/minecraft-mobs-full.jpg" />
+<figcaption>(Minecraft illustration ~stolen~ borrowed from http://minecraft-multiplayer.org/)</figcaption>
+</figure>
+
+Descartes characterized material stuff as being located in time and space ("res extensa"). For something material to exist, it must be somewhere in the physical world, after all. Cartesian Dualism is comparable to an all-encompassing multi-player game built on a physics engine. The physical world is simply a freakishly complicated version of, say, [Minecraft](http://minecraft-multiplayer.org/minecraft-online/). (By the way: that is not how most philosophers would put it, but then, most philosophers are not gamers or computer scientists.) Everything in the Cartesian physical world has got a a set of coordinates and a state, and physical interactions for non-minds require some kind of neighborhood (the world is a [cellular automaton](http://en.wikipedia.org/wiki/Cellular_automaton)). Humans are exempt, because they log in from the outside; while their bodies are physical, their minds ("res cogitans") are not. The materialists tell us that humans are implemented _within_ and as part of the game (as "NPCs", mechanical non-player characters). There are variants to this, for instance pan-psychism (which suggests that all material things have a non-physical mental aspect, and if combined in the right way, will form complex minds), but they are rarely discussed in academic philosophy (albeit John Searle's suggestion that biological neurons have intrinsic properties that cannot be explained or reproduced in a mechanical way arguably constitutes at least some kind of "oligopsychism": at least some material things have a non-physical, mental aspect).
+
+We cannot know the true state of affairs, because there is no way to look at the world from the "outside", and if we want to keep honest, we must remain agnostic about things we cannot know. But even if our observations cannot tell us how the world is implemented, they often tell us how it is not, i.e. that a given theory or intuition must be wrong. Since Einstein, we know that time and space are not independent, and that time and space are not uniform (for instance, the speed of a clock depends on its trajectory relative to the observer). That's inconvenient if you do not want to let go of your everyday intuitions, which have been formed in an environment where time and space look pretty much uniform and independent, but still compatible with the idea that the world is a physics engine: Minecraft just got a little more complicated, and we only need to stretch our intuitive world-view to accommodate this.
+In a similar fashion, we can probably accept that space has more than three orthogonal dimensions, and that all or some particles might actually be interference patterns that stem from higher order stuff cutting through 3D space-time, i.e., pseudo-particles. We need to give up the intuition that the world consists of very tiny Billiard balls, but it could still be a physics engine, laid out in time and (multi-dimensional) space.
+
+Quantum mechanics destroys this possibility. According to quantum mechanics, the information that underlies our observations does sometimes not have a particular position in time and space, but is distributed. The entities that we observe do not always have a distinct position, but are sometimes "smeared" through space-time (this is what "non-locality" means), they can be indeterminate, and, while we do not observe them, be in a non-actualized state (i.e. in a superposition of possible states). Res extensa is not properly extended. Things do not always properly exist. Quantum mechanics is very confusing to mechanists, and to some philosophers, but it should not be a problem to gamers and computer scientists. It simply says: to produce the observations that we get, the world cannot be implemented as a physics engine. That should not stretch our imagination too much, because even in a physics engine, things do not occupy distinct physical positions in the computer. "Where in the computer is the light that you observe in Minecraft, and is it a particle or a wave?"
+
+Quantum mechanics might be replaced by a better theory, but the new theory will have to account for non-locality and superpositional states as well, because these have been demonstrated in experiments. In this sense, quantum mechanics is bound to stay, and we better get used to it. That does not mean that the world is suddenly incomprehensible. If we give up our realist intuitions with respect to res extensa, and accept that the world is not computed as a physics engine, does not have a joint global state with respect to all objects in it, and is does not determine all state aspects as long as objects do not interact, we get rid of the apparent enigmas and paradoxes. That means giving up physicalism in favor of computationalism, along with our intuitions of existence and reality, and alienating some of the non-gamers among the philosophers, but that is a small price to pay for inhabiting a comprehensible universe.

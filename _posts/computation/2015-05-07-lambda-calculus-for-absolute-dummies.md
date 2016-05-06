@@ -16,7 +16,7 @@ If there is one highly underrated concept in philosophy today, it is _computatio
 Unfortunately, most people outside of programming and computer science don't know exactly what computation means. Many may have heard of Turing Machines, but these things tend to do more harm than good, because they leave strong intuitions of moving wheels and tapes, instead of what it really does: embodying the nature of computation.
 
 <figure>
-    <iframe width="560" height="315" src="http://www.youtube.com/embed/E3keLeMwfHY" frameborder="0" caption="test"> </iframe>
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/E3keLeMwfHY" frameborder="0"> </iframe>
     <figcaption>(A Turing Machine, doing more harm than good. But very cool, nonetheless!)</figcaption>
 </figure>
 

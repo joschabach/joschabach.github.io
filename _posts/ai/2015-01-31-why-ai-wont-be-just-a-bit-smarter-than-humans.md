@@ -1,0 +1,25 @@
+---
+title: Why Artificial Intelligence won't just be a bit smarter than humans
+tags:
+  - "Artificial Intelligence"
+  - singularity
+  - superintelligence
+excerpt: "If we ever build intelligent systems that are somewhat comparable to human performance, it is almost impossible for them to remain at a near-human levels."
+---
+
+If building human-level Artificial Intelligence is possible, it will mean that we have solved the puzzle of the human mind. Replicating the puzzle pieces artificially and putting them together will not give us a system that is prone to the limits imposed by biological human brains: artificial brains will probably scale much better than biological ones, and our AIs will have more memory, more accuracy, more speed, more ability for integration of mental content, better problem solving capacity, practically infinite attention span and focusing abilities, and so on. 
+
+The performance differences between artificial and biological minds might at first look similar to the ones between automobiles and horse-drawn carriages. When Benz built his first car in 1885, it could run at 10mp/h--faster than a stage-coach--but would not have beaten a carriage drawn by a galloping horse (30mp/h). It took Benz 18 years to equip his car with an engine that could run at 37 mp/h, but only five years later, the _Blitzen-Benz_ topped 140mp/h. For the remaining century of automobile history, innovation mostly focused on better cup holders.
+
+Imagine that a normal human brain like mine tends to chug away at stage-coach speed, doing a leisurely 5mp/h, whereas a superintelligent human being (think: Eliezer Yudkowsky, or Captain Spock on Adderall) might do 30. Once we push AIs into the Yudkowsky range (and we won't be doing this by scaling the current approaches, because these are not generally intelligent at all so far), there is probably no reason that we won't get them to 140 as well, just by adding more memory, processing power and Adderall. But at some point, engineering is going to hit a boundary again, and future improvements will mostly focus on parking sensors and iPhone Lightning USB-C ports, no?
+
+Wrong. Unlike cars, AIs will do their own engineering. It might take someone like me more than all my life to come up with a solution to the AI problem, but Eliezer could probably do it in the course of writing a couple blog posts (he does not, because he prefers to solve the problem of aligning AI with humanity's well-being first). But _Blitzen-AI_--the 140mp/h equivalent--can not only solve the problem of AI in a few hours, but also come up with substantial improvements that are far outside the range of human engineering abilities. 
+
+It might not seem clear why our AI should want to do that. Intelligence does not include an automatic imperative to improve upon itself. But most AIs are not going to be disembodied experiments run by clueless academics in an attempt to produce content for their next Powerpoint presentation. Once we know how to build AI, no corporation, powerful organization or government can afford not to implement and use one, if they don't want to be taken out by their competition.
+
+Thus, if nothing else, the competition between AI users will give rise to a competition between AIs, and it seems clear that self-improving AI has a greater potential to out-perform static AI. 
+What is the limit of this self-improvement? To me, it seems unlikely that is going to be in the range of human comprehension, i.e. near the equivalent of the speed of sound, but it also seems clear that there must be an upper bound, i.e. a speed of light limit. Super-human AI is not going to stop at 770mp/h, but it is also never going to exceed 670 million mp/h, to stay with our crude metaphor. (The upper bound is determined by things like the upper size of a volume of space in which information can be integrated quickly enough, the computations that can take place in that volume, and the amount that entropy that has to be pumped through that volume to make the computations happen.)
+
+The practical limits of superintelligent AIs will mostly depend on the speed of the initial evolution. A "hard and fast" runaway development, like in Gibson's classic _Neuromancer_, might mean that one of the first self-improving, generally intelligent systems spreads out quickly enough to hog most of the available computer systems on the planet, and thus permanently thwarts all competition. If the ascension of AI happens more gradually, AI driven organizations and corporations might enter a dynamic equilibrium that lasts long enough to produce a multitude of localized AIs that each approach the individual limits imposed by physics.
+
+Personally, I am sure that humanity is smart enough to solve the riddle of AI, but I have some lingering doubts that it will happen before global warming ends the technological civilization that we need to get there. On the other hand, we cannot afford not to try. Without the help of some seriously superintelligent AIs, we are doomed in the face of any of the existential challenges that our species is going to face.
