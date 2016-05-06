@@ -35,7 +35,7 @@ I have been following the strifes between different brands of feminism (and more
 <figure>
 <img src="/images/feminism-and-social-constructionism/e90.jpg">
 <figcaption>(Parody of self-immunization strategies in discourse; 
-            source: [Atheist Revolution](http://www.atheistrev.com/2014/08/how-to-win-any-argument-about-social.html))
+            source: <a href="http://www.atheistrev.com/2014/08/how-to-win-any-argument-about-social.html">Atheist Revolution</a>)
 </figcaption>
 </figure>
 
