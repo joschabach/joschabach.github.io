@@ -15,7 +15,7 @@ excerpt: "If you should happen to be interested in how to turn an abstracted ver
 If you should happen to be interested in how to turn an abstracted version of basic electronic circuitry into a puzzle game, read on.
 
 <figure>
-<img src="/images/a-puzzle-game-that-makes-us-build-a-complete-computer/wireworld-nice.jpg" width="363" height="213" />
+<img src="/images/a-puzzle-game-that-makes-us-build-a-complete-computer/wireworld_nice.jpg" width="363" height="213" />
 </figure>
  
 My favorite casual computer games are puzzles that allow me to pore over the solutions for hours. I want lots of little things to go whirr! and click! and then do my bidding. If you have not played [Trainyard](http://trainyard.ca/) yet, I strongly recommend checking it out! (You can start with the free edition, [Trainyard Express](http://trainyard.ca/aboutExpress), which thankfully does not have any advertising or in app purchases, by the way.) Trainyard lets you draw tracks with your finger, and little locomotives are traversing them in funky patterns, changing their colors on the way, before either crashing or finding their destinations.
@@ -30,7 +30,6 @@ On the other end of the spectrum, there is Minecraft, the famous open-ended, alm
 
 <figure>
 <iframe width="560" height="315" src="http://www.youtube.com/embed/aQqWorbrAaY" frameborder="0"> </iframe> 
-<figcaption>Laurens Weyn 2011: Redstone computer with GPU</figcaption>
 </figure>
 
 ## Building blocks
@@ -43,7 +42,7 @@ So, what we need are power sources, indicators (for instance, lamps) and powered
 
 <figure>
 <iframe width="560" height="315" src="http://www.youtube.com/embed/eFplUkkJCuM" frameborder="0"> </iframe> 
-<figcaption>Conway's Game of Life</figcaption>
+<figcaption>Wirewold cellular automaton</figcaption>
 </figure>
 
 Should our simulator be a cellular automaton? [Wireworld](https://en.wikipedia.org/wiki/Wireworld) is a pretty nice one. Like [Conway's "Game of Life"](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), it uses only the immediate neighborhood of cells that are organized in an orthogonal grid. Unlike in "Game of Life", there are not just two states, but four: insulator (i.e., empty), conductor (i.e., wire), "electron head", and "electron tail". In each step, the cells transition: insulators remain insulators, wires become electron heads if they are adjacent to electron heads, electron heads become electron tails, and electron tails turn into wires. These simple rules ensure that electrons seem to travel along wires. Branches of wires allow interesting things to happen: they may split electrons, to create power sources (usually loops that emit electrons in regular intervals), or cancel out electrons that meet each other head-on, which allows the creation of diodes and logic gates. Wireworld is powerful enough to build computers in it, but it's a tedious process. Also, the "electrons" do not travel along a voltage differential, and the similarity to actual electronic circuitry is quite superficial.
