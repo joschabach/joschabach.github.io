@@ -1,11 +1,14 @@
 ---
 title: "The Lambda Calculus for Absolute Dummies (like myself)"
-category: AI
 header:
   image: the-lambda-calculus-for-absolute-dummies/feature.png
 image:
   feature: the-lambda-calculus-for-absolute-dummies/feature.png
   thumb: the-lambda-calculus-for-absolute-dummies/thumb.png #keep it square 200x200 px is good
+tags:
+  - computation
+  - Lambda calculus
+  - Turing machine
 excerpt: "Computation might be the most important addition to philosophy in the last century, and it is probably best understood not through the Turing Machine, but through the Lambda Calculus. Here is an introduction for non-mathematicians."
 ---
 
