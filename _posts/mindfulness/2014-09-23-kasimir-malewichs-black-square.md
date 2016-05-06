@@ -10,7 +10,7 @@ excerpt: "Exploring consciousness through anti-representationalism."
 
 <figure>
 <img src="/images/kasimir-malewichs-black-square/black-square.jpg" />
-<figcaption>[Malewich: Black Square (1915)](http://www.tate.org.uk/art/research-publications/the-sublime/philip-shaw-kasimir-malevichs-black-square-r1141459)</figcaption>
+<figcaption><a href="http://www.tate.org.uk/art/research-publications/the-sublime/philip-shaw-kasimir-malevichs-black-square-r1141459">Malewich: Black Square (1915)</a></figcaption>
 </figure>
 
 Exploring consciousness through anti-representationalism. No, we are not connected to a world of things through our bodies. Our connection is much more fragile: a gossamer network (of nerves, says the best theory we have) that admits a few bits of information at a time is all we have to make do with. Meaning is what we construct in our minds, not what we find in the world.
