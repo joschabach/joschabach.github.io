@@ -16,7 +16,7 @@ Why is it so difficult for nerds to relate to most people?
 Just recently, some seriously misguided EU advertising fellows attempted to lure girls into science, and in the eyes of many (especially female) scientists, they failed spectacularly.
 
 <figure>
-    <iframe width="560" height="315" src="http://www.youtube.com/embed/g032MPrSjFA&fs" frameborder="0" caption="test"> </iframe>
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/zj--FFzngUk" frameborder="0" caption="test"> </iframe>
 </figure>
 
 Look at one of the responses:
