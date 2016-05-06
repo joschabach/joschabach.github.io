@@ -11,7 +11,7 @@ Due to the difficulties of recreating decayed and destroyed tissue, this resurre
 Hendricks is an expert on nematodes, specifically the roundworm _Caenorhabditis elegans_, which tends to live in soil and feed on decaying organic matter when not spending time in the lab. I can see why _Caenorhabditis_ dislikes the prospect of his food ending up in  [Alcor](http://www.alcor.org/)'s freezer instead of the soil, but the core of Hendricks' arguments is not as compelling to me.
 
 <figure>
-<img src="images/in-defense-of-cryonics/CrawlingCelegans.gif">
+<img src="/images/in-defense-of-cryonics/CrawlingCelegans.gif">
 </figure>
 
 Hendricks makes five especially salient points:
