@@ -5,7 +5,7 @@ tags:
   - feminism
   - gender
   - "social constructionism"
- excerpt: "Making sense of the ideological dynamics of current 3rd wave feminism"
+excerpt: "Making sense of the ideological dynamics of current 3rd wave feminism"
 ---
 
 What is going on with feminism today? The German twittersphere is currently abuzz with controversy about [erzaehlmirnix](https://erzaehlmirnix.wordpress.com/), a (female) blogger and cartoonist that refuses to identify with any particular political camp, and instead describes, analyzes and caricatures the world from her own personal vantage point. Some of her observations reflect critically on the denigration of women and on racism, so her cartoons are sometimes passed around into the social media timelines of feminists and intersectional anti-racists, where they invariably give rise to angry outbursts, vicious hostility, waves of mass blockings and defriendings. Why? Some of erzaehlmirnix' cartoons make fun of feminist tropes and occasionally even attract applause from mens' rights activists, which makes her a thoroughly "anti-feminist, sexist, racist person" in the eyes of some feminists, requiring utter and complete ostracism even in instances where she is supporting positions that these feminists hold themselves. This seems to be puzzling to many outside observers, because _all_ of her cartoons seem to fall within the scope of a thoroughly liberal, anti-racist, critical world-view. Here is an especially flagrant example that has been passed around as evidence for her irredeemably "sexist", and "masculist" (anti-feminist) views.

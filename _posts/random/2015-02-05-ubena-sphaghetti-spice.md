@@ -5,7 +5,7 @@ tags:
   - lovage
   - spice
   - "Ubena Spaghettigewürz"
- excerpt: "How to concoct a secret German chemical that caused incurable addiction in the author when he was a child."
+excerpt: "How to concoct a secret German chemical that caused incurable addiction in the author when he was a child."
  
 ---
 
