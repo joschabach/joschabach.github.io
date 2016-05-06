@@ -14,8 +14,8 @@ I have just made a bet that quantum computers will not turn out to be better tha
 
 <figure>
      <img src="/images/quantum-computers-wont-work/schroedinger-cat.jpg">
-     <figcaption>Cat: _Do you expect me to compute?_
-                 Evil quantum computer scientist: _No, Mr Cat, I expect you to die, and to not die, in simultaneous superposition._
+     <figcaption>Cat: *Do you expect me to compute?*
+                 Evil quantum computer scientist: *No, Mr Cat, I expect you to die, and to not die, in simultaneous superposition.*
 </figcaption>
 </figure>
 
