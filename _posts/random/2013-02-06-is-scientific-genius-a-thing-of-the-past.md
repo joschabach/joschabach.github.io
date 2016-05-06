@@ -4,10 +4,11 @@ tags:
 - methodology
 - genius
 - science
-excerpt: "Where have all the geniuses gone? Is the time of big scientific discoveries over? Or did the way science works  fundamentally change?"
+excerpt: "Where have all the geniuses gone? Is the time of big scientific discoveries over? Or did the way science works fundamentally change?"
 ---
 
-["Is scientific genius a thing of the past,"](http://arstechnica.com/science/2013/02/is-scientific-genius-a-thing-of-the-past/) asks Kate Shaw in Ars Technica, and points our attention to a nature paper by psychologist Dean Keith Simonton:
+["Is scientific genius a thing of the past?"](http://arstechnica.com/science/2013/02/is-scientific-genius-a-thing-of-the-past/) asks Kate Shaw in Ars Technica, and points our attention to a nature paper by psychologist Dean Keith Simonton:
+
 > Today, according to Simonton, there just isn’t room to create new disciplines or overthrow the old ones. “It is difficult to imagine that scientists have overlooked some phenomenon worthy of its own discipline,” he writes. Furthermore, most scientific fields aren’t in the type of crisis that would enable paradigm shifts, according to Thomas Kuhn’s classic view of scientific revolutions. Simonton argues that instead of finding big new ideas, scientists currently work on the details in increasingly specialized and precise ways.
 
 ## Where have all the geniuses gone?
