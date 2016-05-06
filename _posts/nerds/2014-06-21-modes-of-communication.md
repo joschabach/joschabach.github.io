@@ -12,7 +12,11 @@ Last week, during a [public Media Lab](http://www.media.mit.edu/events/2014/06/1
 
 > Without some form of deception, society would be completely impossible. **Lies of omission allow us to cooperate**. 
 
-This prompted [Joi Ito](http://en.wikipedia.org/wiki/Joi_Ito)'s elaboration: we tend to make communicative statements (including non-verbal ones, like the choice of clothing) in a very particular context. **How can we make a communicative statement work when the context breaks down?** In fact, this breakdown of context is almost the norm for communication that is available to non-homogenous audiences, say, both your peers and your parents, following you on Facebook: the same statement may very well mean very different things different recipients. By careful omission, which amounts to a type of deception, we may be able to realize our communicative intent even if the signs and concepts that make up our message mean different things to individual recipients.
+This prompted [Joi Ito](http://en.wikipedia.org/wiki/Joi_Ito)'s elaboration: 
+
+> We tend to make communicative statements (including non-verbal ones, like the choice of clothing) in a very particular context. **How can we make a communicative statement work when the context breaks down?** 
+
+In fact, this breakdown of context is almost the norm for communication that is available to non-homogenous audiences, say, both your peers and your parents, following you on Facebook: the same statement may very well mean very different things different recipients. By careful omission, which amounts to a type of deception, we may be able to realize our communicative intent even if the signs and concepts that make up our message mean different things to individual recipients.
 
 This insight has interesting implications: First of all, there are several distinct kinds/modes of public communication. One is concerned with the transmission of content (ideas, arguments, data etc.). The other one is concerned with the elicitation of social behavior: we want the recipients of the communication to interact in certain ways, adopt a position towards us in relation to their own, and so on.
 
