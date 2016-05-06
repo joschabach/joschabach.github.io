@@ -17,7 +17,7 @@ _Here's a short email exchange with Caryn, on the common mix-up of meaning and r
 
 By 'meaning', do you refer to 'meaningful life' (pervasive feeling of satisfaction), or semiotic reference? And by 'caring', do you refer to 'compassion for others', 'involvement' or 'motivational relevance'?
 
-> **Well, to be precise, they relate to negation of meaning with the negation of caring. I think caring for the purpose of this discussion any of the three will work for the moment at least. With respect to meaning, I'm definitely not referring to meaningful life, more the semiotic sense. **
+> **Well, to be precise, they relate to negation of meaning with the negation of caring. I think caring for the purpose of this discussion any of the three will work for the moment at least. With respect to meaning, I'm definitely not referring to meaningful life, more the semiotic sense.**
 
 I also suspect that we need to define "most people".
 
