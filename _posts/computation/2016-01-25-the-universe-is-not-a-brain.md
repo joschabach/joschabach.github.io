@@ -1,6 +1,8 @@
 ---
 title: "No, the Universe is not a Brain"
-tags: computationalism, "universal brain"
+tags: 
+ - computationalism
+ - universal brain
 excerpt: "Could the structure the universe support brain-like activities at interplanetary distances?"
 ---
 
