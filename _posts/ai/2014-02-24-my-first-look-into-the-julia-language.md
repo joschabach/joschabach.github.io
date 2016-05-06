@@ -29,7 +29,7 @@ How fast is Julia? There are many benchmarks, but let me see for myself. Here is
 
 ~~~
 def is_prime(n):
-    if n &lt; 4:
+    if n < 4:
         return True
     if n % 2 == 0:
         return False
@@ -59,7 +59,7 @@ The closest equivalent in Julia looks like this:
 ~~~
 
 function is_prime(n)
-    if n &lt; 4
+    if n < 4
         return true
     end
     if n % 2 == 0
