@@ -32,12 +32,11 @@ Technically, we could store Göd's state as part of the universe's state, but th
 The simplest format in which we could define an instruction consists of
 
 ~~~
-
 if bit at current address is 0:
   write (0|1) at position
   position++ | position--
   current_instruction = (<one of the possible instructions>)
-else: \# bit at current address is 1
+else: # bit at current address is 1
   write (0|1) at position
   position++ | position--
   current_instruction = (<one of the possible instructions>)
