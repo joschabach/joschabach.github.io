@@ -1,6 +1,8 @@
 ---
 title: "On Marvin Minsky"
-tags: artificial intelligence, Marvin Minsky
+tags: 
+  - artificial intelligence
+  - Marvin Minsky
 excerpt: "Marvin Minsky has passed away from us last night. Nobody else in the 20th century has influenced our work and our way of looking at what makes us human like Marvin did."
 ---
 
