@@ -9,7 +9,7 @@ tags:
 excerpt: "On the fourth day, we dug up the old wire machine. Y had discovered it first: A stunning and brilliantly constructed, entirely mechanical computer..."
 ---
 
-_One more of those strange dreams. _
+_One more of those strange dreams._
 
 On the fourth day, we dug up the old wire machine. Y had discovered it first: A stunning and brilliantly constructed, entirely mechanical computer, a vast, intricate three-dimensional web of taut, crisscrossing metal strings, pulled by springs and levers. After an unknown number of centuries, the mechanism was still so well balanced that it continued to run, driven only by the endless patience of the faint tug of the coriolis force that powered its intake pendulums. Entirely self-contained, it had no way of sensing the world or making contact; not that there would have been anyone to make contact to where the thing came from.
 
