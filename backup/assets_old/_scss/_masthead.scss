@@ -1,0 +1,59 @@
+/* ==========================================================================
+   MASTHEAD
+   ========================================================================== */
+
+.masthead {
+  position: relative;
+  border-bottom: 1px solid $border-color;
+  -webkit-animation: intro 0.3s both;
+  animation: intro 0.3s both;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+  z-index: 20;
+
+  &__inner-wrap {
+    @include clearfix;
+    padding: 0.5em 2em 0.5em;
+    font-family: $navigation-font-family;
+    font-weight: 200;
+    text-transform: uppercase;
+    background-color: $masthead-color;
+
+    @include breakpoint($large) {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    nav {
+      z-index: 10;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.masthead__menu {
+  @include breakpoint($large) {
+    @include prefix(0 of 12);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    list-style-type: none;
+  }
+}
+
+.masthead__menu-item {
+  display: block;
+  list-style-type: none;
+  font-size: $type-size-7;
+  white-space: nowrap;
+
+  &--lg {
+    font-size: $type-size-6;
+  }
+}

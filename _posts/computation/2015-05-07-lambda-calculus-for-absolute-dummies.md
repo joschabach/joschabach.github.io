@@ -36,7 +36,7 @@ We only have the following symbols:
 - The greek letter `λ` (pronounced, of course: _Lambda_), and the dot: `.` With `λ` and the dot, we can write functions. A function starts always with the `λ` and a variable, followed by a dot, and then comes an expression. The `λ` does not have any complicated meaning: it just says that a function starts here. The `λ`-_variable_-`.` part of a function is called its _head_, and the remainder (the expression) is called the _body_.
 
 <figure>
-    <img src="/images/the-lambda-calculus-for-absolute-dummies/lambda1.png">
+    <img src="/images/the-lambda-calculus-for-absolute-dummies/lambda1.png" class="align-right" />
     <figcaption>A function.</figcaption>
 </figure>
 
