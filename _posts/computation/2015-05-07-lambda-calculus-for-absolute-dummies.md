@@ -35,15 +35,10 @@ We only have the following symbols:
 - Parentheses: `( )`. Parentheses can be used to indicate that some part of an expression belongs together (just as the braces around this part of the sentence make it belong together). Where we don't have parentheses, we look at expressions simply from left to right.
 - The greek letter `λ` (pronounced, of course: _Lambda_), and the dot: `.` With `λ` and the dot, we can write functions. A function starts always with the `λ` and a variable, followed by a dot, and then comes an expression. The `λ` does not have any complicated meaning: it just says that a function starts here. The `λ`-_variable_-`.` part of a function is called its _head_, and the remainder (the expression) is called the _body_.
 
-
- ![Function in Lambda calculus](/images/the-lambda-calculus-for-absolute-dummies/lambda1.png)
- {: width="180px"}
- <figcaption>A function.</figcaption>
-<figure>
-    <img src="/images/the-lambda-calculus-for-absolute-dummies/lambda1.png" />
-    <figcaption>A function.</figcaption>
-</figure>
-
+<figure markdown="1">
+![Function in Lambda calculus](/images/the-lambda-calculus-for-absolute-dummies/lambda1.png)
+<figcaption>A function.</figcaption>
+</figure>{: width="400px"}
 
 > **Q:** What is the value or meaning of a variable? 
 >
