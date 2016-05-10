@@ -38,7 +38,7 @@ We only have the following symbols:
 <figure markdown="1">
 ![Function in Lambda calculus](/images/the-lambda-calculus-for-absolute-dummies/lambda1.png)
 <figcaption>A function.</figcaption>
-</figure>{: width="400px"}
+</figure>
 
 > **Q:** What is the value or meaning of a variable? 
 >

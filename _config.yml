@@ -222,26 +222,34 @@ defaults:
       related: true
       taxonomy: true
   - scope:
-      path: ai
+      path: "ai"
       type: posts
     values:
       category: "AI and Cognition"
   - scope:
-      path: computation
-      type: posts
+      path: "computation"
     values:
       category: "Computational Universe"
   - scope:
-      path: video
+      path: "video"
       type: posts
     values:
       category: Video
   - scope:
-      path: random
+      path: "random"
       type: posts
     values:
       category: "Personal Thoughts"
-
+  - scope:
+      path: "nerds"
+      type: posts
+    values:
+      category: "Personal Thoughts"
+  - scope:
+      path: "mindfulness"
+      type: posts
+    values:
+      category: "Personal Thoughts"
 
   # _pages
   - scope:
