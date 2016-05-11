@@ -212,7 +212,8 @@ compress_html:
 
 defaults:
   # _posts
-  - scope:
+  -
+    scope:
       path: ""
       type: posts
     values:
@@ -221,38 +222,22 @@ defaults:
       share: true
       related: true
       taxonomy: true
-  - scope:
+  -
+    scope:
       path: "ai"
-      type: posts
+      type: "posts"
     values:
       category: "AI and Cognition"
-  - scope:
+  -
+    scope:
       path: "computation"
+      type: posts
     values:
       category: "Computational Universe"
-  - scope:
-      path: "video"
-      type: posts
-    values:
-      category: Video
-  - scope:
-      path: "random"
-      type: posts
-    values:
-      category: "Personal Thoughts"
-  - scope:
-      path: "nerds"
-      type: posts
-    values:
-      category: "Personal Thoughts"
-  - scope:
-      path: "mindfulness"
-      type: posts
-    values:
-      category: "Personal Thoughts"
 
   # _pages
-  - scope:
+  -
+    scope:
       path: ""
       type: pages
     values:
