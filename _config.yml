@@ -151,7 +151,7 @@ kramdown:
 
 # Outputting
 permalink: /:title/
-paginate: 5 # amount of posts to show
+paginate: 6 # amount of posts to show
 paginate_path: /page:num/
 timezone: "America/New_York" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -212,8 +212,7 @@ compress_html:
 
 defaults:
   # _posts
-  -
-    scope:
+  - scope:
       path: ""
       type: posts
     values:
@@ -222,22 +221,33 @@ defaults:
       share: true
       related: true
       taxonomy: true
-  -
-    scope:
-      path: "ai"
-      type: "posts"
+  - scope:
+      path: "_posts/ai"
     values:
       category: "AI and Cognition"
-  -
-    scope:
-      path: "computation"
-      type: posts
+  - scope:
+      path: "_posts/computation"
     values:
       category: "Computational Universe"
+  - scope:
+      path: "_posts/video"
+    values:
+      category: "Video"
+  - scope:
+      path: "_posts/random"
+    values:
+      category: "Personal Thoughts"
+  - scope:
+      path: "_posts/nerds"
+    values:
+      category: "Personal Thoughts"
+  - scope:
+      path: "_posts/mindfulness"
+    values:
+      category: "Personal Thoughts"
 
   # _pages
-  -
-    scope:
+  - scope:
       path: ""
       type: pages
     values:
