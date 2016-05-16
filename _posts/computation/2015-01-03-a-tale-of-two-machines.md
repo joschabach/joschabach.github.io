@@ -5,6 +5,7 @@ tags:
 - consciousness
 - Göd
 - dualism
+- ai
 thumbnail: /images/a-tale-of-two-machines/thumb.jpg
 excerpt: "How is it possible that we can be conscious of a universe that at the same time computes us? How can we observe the progression of a universe that we are part of?"
 ---

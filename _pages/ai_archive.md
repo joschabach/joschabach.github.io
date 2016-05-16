@@ -1,6 +1,10 @@
 ---
-layout: tag-archive
+layout: category-archive
 author_profile: false
 permalink: ai
-tag: "AI and Cognition"
+category: "AI and Cognition"
+tags:
+  - ai
+  - mind
+title: "AI and Cognition"
 ---
