@@ -1,6 +1,6 @@
 ---
 layout: category-archive
 author_profile: false
-permalink: videos
+permalink: /videos/
 category: "Video"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: category-archive
 author_profile: false
-permalink: universe
+permalink: /universe/
 category: "Computational Universe"
 tags:
   - computationalism
