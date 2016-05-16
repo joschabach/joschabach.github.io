@@ -1,7 +1,6 @@
 ---
 title: "How to build an artificially intelligent plant"
 excerpt: "Ever wondered how to infuse an ordinary houseplant with some intelligence, while keeping its personality?"
-category: AI
 tags:
   - augmented cognition
   - motivation
