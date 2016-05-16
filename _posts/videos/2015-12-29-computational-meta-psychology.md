@@ -5,7 +5,6 @@ tags:
   - chaos communication congress
   - lecture
   - hamburg
-category: video
 ---
 
 Computational theories of the mind seem to be ideally suited to explain rationality. 

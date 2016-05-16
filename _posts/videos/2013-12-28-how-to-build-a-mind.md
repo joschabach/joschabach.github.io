@@ -1,6 +1,5 @@
 ---
 title: "How to build a Mind: Artificial Intelligence Reloaded" 
-category: video
 tags: 
   - chaos communication congress
   - lecture

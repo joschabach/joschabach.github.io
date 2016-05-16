@@ -230,7 +230,7 @@ defaults:
     values:
       category: "Computational Universe"
   - scope:
-      path: "_posts/video"
+      path: "_posts/videos"
     values:
       category: "Video"
   - scope:
