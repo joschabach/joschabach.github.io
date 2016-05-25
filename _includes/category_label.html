@@ -1,0 +1,14 @@
+{% include base_path %}
+
+{% if page.category %}
+  {% for link in site.data.navigation.main %}
+    {% if link.title = page.category %}
+{% if link.url contains 'http' %}
+{% assign domain = '' %}
+{% else %}
+{% assign domain = base_path %}
+{% endif %}
+<a href="{{ domain }}{{ link.url }}" class = "page__taxonomy-item">{{ link.title }}</a>
+{% endif %}
+{% endfor %}
+{% endif %}

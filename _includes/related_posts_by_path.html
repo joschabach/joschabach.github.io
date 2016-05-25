@@ -1,0 +1,27 @@
+<div class="page__related">
+  {% if site.data.ui-text[site.locale].related_label %}
+  <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label }}</h4>
+  {% endif %}
+  <div class="grid__wrapper">
+    {% assign maxRelated = 3 %}
+    {% assign maxRelatedCounter = 0 %}
+
+    {% for post in site.posts %}
+
+    {% if post.url != page.url %}
+    {% assign p = (post.path | split: "/") %}
+    {% assign q = (page.path | split: "/") %}
+
+    {% if p[1] == q[1] %}
+    {% include archive-single.html type="grid" %}
+    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+    {% endif %}
+    {% endif %}
+    {% if maxRelatedCounter >= maxRelated %}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+
+
+  </div>
+</div>

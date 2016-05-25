@@ -123,7 +123,6 @@
 
   /* next/previous buttons */
   &--pager {
-    padding: 1em 2em;
     display: table-cell;
     vertical-align: middle;
     width: 50%;
@@ -137,8 +136,6 @@
     div {
       display: table-cell;
       vertical-align: middle;
-      padding-left: 0.5em;
-      padding-right: 0.5em;
     }
 
     div.text {
@@ -151,12 +148,13 @@
 
     &:first-child {
       text-align: left;
+      padding-right: 0.5em;
     }
 
 
     &:last-child {
       text-align: right;
-
+      padding-left: 0.5em;
     }
 
 

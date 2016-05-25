@@ -219,8 +219,10 @@ defaults:
       layout: single
       comments: true
       share: true
+      author_profile: false
       related: true
       taxonomy: true
+      tags: false
   - scope:
       path: "_posts/ai"
     values:
@@ -236,7 +238,7 @@ defaults:
   - scope:
       path: "_posts/random"
     values:
-      category: "Personal Thoughts"
+      category: "Random Ideas"
   - scope:
       path: "_posts/nerds"
     values:
@@ -252,8 +254,8 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
-      taxonomy: true
+      author_profile: false
+      taxonomy: false
 
 
 

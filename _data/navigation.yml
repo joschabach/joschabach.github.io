@@ -1,4 +1,4 @@
-# main links links
+# main links
 main:
   - title: "Publications"
     url: /publications/
@@ -16,5 +16,7 @@ main:
     url: /universe/
 
   - title: "Personal thoughts"
-    url: /random/
+    url: /personal/
 
+  - title: "Random ideas"
+    url: /random/
