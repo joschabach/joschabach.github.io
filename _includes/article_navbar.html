@@ -1,0 +1,38 @@
+{% include base_path %}
+
+<div class="navbar top">
+  <div class="navbar__inner-wrap">
+    <div class="sitelogo">
+      {% include sitelogo.html %}
+    </div>
+    {% if page.category and page.taxonomy %}
+      {% for link in site.data.naviation.main %}
+        {% if link.title == page.category %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = base_path %}
+          {% endif %}
+          <div class="navbar__category"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    <div class="navbar__title"><a href="#top">{{ page.title }}</a></div>
+
+    <div class="sharing">
+      <ul>
+        <li><a href="https://twitter.com/intent/tweet?text={{ base_path }}{{ page.url }}" class="btn btn--twitter" title="{{ site.data.ui-text[site.locale].share_on_label }} Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ base_path }}{{ page.url }}" class="btn btn--facebook" title="{{ site.data.ui-text[site.locale].share_on_label }} Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i></a>
+        </li>
+        <li>
+        <a href="https://plus.google.com/share?url={{ base_path }}{{ page.url }}" class="btn btn--google-plus" title="{{ site.data.ui-text[site.locale].share_on_label }} Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="https://www.linkedin.com/shareArticle?mini=true&url={{ base_path }}{{ page.url }}"
+           class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label }} LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="mailto:?subject=&amp;body={{ page.title }}%0A%0A{{ base_path }}{{ page.url }}" class="btn btn--envelope-o" title="{{ site.data.ui-text[site.locale].share_via_email }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>

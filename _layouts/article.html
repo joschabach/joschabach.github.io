@@ -1,18 +1,31 @@
 ---
-layout: default
+layout: compress
 ---
 
 {% include base_path %}
+
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
+
+<body>
+
+{% include article_navbar.html %}
+
+
+{% include browser-upgrade.html %}
+
+
 
 {% if (page.header.overlay_color or page.header.overlay_image) or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
 
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
+
 
 <div id="main" role="main">
   {% include sidebar.html %}
@@ -60,7 +73,6 @@ layout: default
         {% endif %}
 
 
-        {% if page.share %}{% include social-share.html %}{% endif %}
       </footer>
       {% include post_pagination.html %}
     </div>
@@ -75,3 +87,9 @@ layout: default
     {% include related_posts_by_path.html %}
   {% endif %}
 </div>
+
+% include scripts.html %}
+{% include footer/custom.html %}
+
+</body>
+</html>
