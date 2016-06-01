@@ -6,7 +6,7 @@
       {% include sitelogo.html %}
     </div>
     {% if page.category and page.taxonomy %}
-      {% for link in site.data.naviation.main %}
+      {% for link in site.data.navigation.main %}
         {% if link.title == page.category %}
           {% if link.url contains 'http' %}
             {% assign domain = '' %}
