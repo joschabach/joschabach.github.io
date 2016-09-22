@@ -2,11 +2,10 @@
 title: "From elementary computation to ethics?"
 tags:
   - computation
-  - Nick Bostrom
-  - Elon Musk
-  - simulated universe
-  - reversible computation
-  - entropy
+  - ethics
+  - David Chapman
+  - Buddhism
+  - universe
 excerpt: "Some preliminary thoughts and arguments on the feasibility of ultimate norms, starting from a foundation of general computationalism"
 ---
 
