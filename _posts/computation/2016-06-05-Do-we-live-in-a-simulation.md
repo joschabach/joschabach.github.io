@@ -7,17 +7,15 @@ tags:
   - simulated universe
   - reversible computation
   - entropy
-excerpt: "Computation might be the most important addition to philosophy in the last century, and it is probably best understood not through the Turing Machine, but through the Lambda Calculus. Here is an introduction for non-mathematicians."
+excerpt: "Elon Musk recently suggested that we likely do not live in a base reality, but in a simulation. He even puts the probability at a billion to one. Is he correct?"
 ---
 
 
-If there is one highly underrated concept in philosophy today, it is _computation_. Why is it so important? Because computationalism is the new mechanism. For millennia, philosophers have struggled when they wanted to express or doubt that the universe can be explained in a mechanical way, because it is so difficult to explain what a machine is, and what it is not. The term _computation_ does just this: it defines exactly what machines can do, and what not. If the universe/the mind/the brain/bunnies/God is explicable in a mechanical way, then it is a computer, and vice versa.
-
-Unfortunately, most people outside of programming and computer science don't know exactly what computation means. Many may have heard of Turing Machines, but these things tend to do more harm than good, because they leave strong intuitions of moving wheels and tapes, instead of what it really does: embodying the nature of computation.
+Elon Musk recently suggested that we likely do not live in a base reality, but in a simulation. He even puts the probability at a billion to one. Is he correct?
 
 <figure>
-    <iframe width="560" height="315" src="http://www.youtube.com/embed/E3keLeMwfHY" frameborder="0"> </iframe>
-    <figcaption>(A Turing Machine, doing more harm than good. But very cool, nonetheless!)</figcaption>
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/2KK_kzrJPS8" frameborder="0"> </iframe>
+    <figcaption>(Elon Musk on the Simulation Argument)</figcaption>
 </figure>
 
 
