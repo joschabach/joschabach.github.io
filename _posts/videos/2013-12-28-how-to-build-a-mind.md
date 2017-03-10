@@ -20,7 +20,7 @@ ideas that will underlie a unified computational model of the mind, and especial
 understanding of motivation and autonomy, representation and grounding, associative thinking, reason and creativity.
 
 <figure>
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ouIqwoSgrhY" frameborder="0" caption="test"> </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ouIqwoSgrhY" frameborder="0" caption="test"> </iframe>
     <figcaption>30c3, Hamburg 2013</figcaption>
 </figure>
 

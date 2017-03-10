@@ -13,8 +13,8 @@ Intelligence can give us unique answers.
 This talk sketches the conductor theory of consciousness in 12 minutes.
 
 <figure>
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Jr7gY3JyzP8" frameborder="0" caption="test"> </iframe>
-    <figcaption>30c3, Hamburg 2013</figcaption>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jr7gY3JyzP8" frameborder="0" caption="test"> </iframe>
+    <figcaption>TEDx BeaconStreet 2016</figcaption>
 </figure>
 
 
