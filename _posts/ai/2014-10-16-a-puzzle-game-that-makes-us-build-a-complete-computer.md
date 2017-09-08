@@ -38,7 +38,7 @@ Building actual CPUs and computer circuits is a similar puzzle, and I liked it a
 
 So, what we need are power sources, indicators (for instance, lamps) and powered switches. These must be connected with wires (including branches and bridges), and separated by insulators. We can probably use unipolar power, i.e. ignore the flow of electrons back from electrical loads (we can imagine that there every load is automatically grounded).
 
-## Cellular automatons?
+## Cellular automata?
 
 <figure>
 <iframe width="560" height="315" src="http://www.youtube.com/embed/eFplUkkJCuM" frameborder="0"> </iframe> 
